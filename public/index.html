@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cables de Red: Conectando el Mundo Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #1a56db;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            color: #2c5282;
+            margin-top: 2rem;
+        }
+        .imgheader {
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            width: 100%;
+            height: 250px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .info-box {
+            background-color: #e6f0ff;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        footer {
+            background-color: #1a56db;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        #networkTestSection {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        #testResults {
+            margin-top: 1rem;
+        }
+        #testHistory {
+            margin-top: 2rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #1a56db;
+            color: white;
+        }
+        .delete-btn {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .delete-btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cables de Red: Conectando el Mundo Digital</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>¿Qué son los cables de red?</h2>
+            <p>
+                Los cables de red son el medio físico que permite la conexión entre dispositivos en una red de computadoras. 
+                Estos cables transmiten datos digitales en forma de señales eléctricas u ópticas, permitiendo la comunicación 
+                entre ordenadores, routers, switches y otros dispositivos de red.
+            </p>
+            <img class="imgheader" src="./src/images/cablesdered.jpg" alt="Diferentes tipos de cables de red">
+        </section>
+
+        <section>
+            <h2>Funcionamiento de los cables de red</h2>
+            <p>
+                Los cables de red funcionan transmitiendo datos a través de señales eléctricas (en cables de cobre) o pulsos de luz 
+                (en cables de fibra óptica). Estos datos se envían en forma de paquetes, que contienen la información junto con 
+                detalles sobre su origen y destino.
+            </p>
+            <ul>
+                <li>En los cables de cobre, los datos se transmiten como impulsos eléctricos.</li>
+                <li>En la fibra óptica, los datos viajan como pulsos de luz.</li>
+                <li>La velocidad y la calidad de la transmisión dependen del tipo y la calidad del cable.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Importancia de los cables de red</h2>
+            <div class="grid">
+                <div>
+                    <p>
+                        Los cables de red son fundamentales en la infraestructura de comunicaciones modernas por varias razones:
+                    </p>
+                    <ul>
+                        <li>Proporcionan conexiones estables y de alta velocidad.</li>
+                        <li>Son menos susceptibles a interferencias que las conexiones inalámbricas.</li>
+                        <li>Permiten la creación de redes locales (LAN) eficientes.</li>
+                        <li>Son la base de la conectividad a Internet en todo el mundo.</li>
+                        <li>Facilitan la transferencia de grandes volúmenes de datos.</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <h3>Dato interesante</h3>
+                    <p>
+                        Los cables submarinos de fibra óptica transportan más del 95% del tráfico de Internet internacional, 
+                        conectando continentes y permitiendo la comunicación global instantánea.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Tipos de cables de red</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="./src/images/placeholder-ethernet.jpg" alt="Cable de Par Trenzado (Ethernet)">
+                    <h3>Cable de Par Trenzado (Ethernet)</h3>
+                    <p>El cable de red de par trenzado Ethernet es un tipo de cable utilizado para la transmisión de datos en redes informáticas, especialmente en redes LAN (Local Area Network). Está compuesto por pares de hilos de cobre trenzados entre sí para reducir interferencias electromagnéticas y mejorar la calidad de la señal, Incluye categorías como Cat5e, Cat6 y Cat7.</p>
+                </div>
+                <div class="card">
+                    <img src="./src/images/placeholder-coaxial.jpg" alt="Cable Coaxial">
+                    <h3>Cable Coaxial</h3>
+                    <p>El cable coaxial es un tipo de cable eléctrico utilizado para la transmisión de señales de radiofrecuencia, televisión, internet y telecomunicaciones. Se compone de un conductor central rodeado por un aislante, una malla de blindaje y una cubierta exterior, lo que le permite reducir interferencias y mantener una transmisión estable de datos a largas distancias.</p>
+                </div>
+                <div class="card">
+                    <img src="./src/images/placeholder-fibra.jpg" alt="Fibra Óptica">
+                    <h3>Fibra Óptica</h3>
+                    <p>Los cables de red de fibra óptica son un tipo específico de cableado diseñado para la transmisión de datos a alta velocidad en redes de telecomunicaciones, internet, y centros de datos. Utilizan haces de luz en lugar de señales eléctricas, lo que permite mayor velocidad, ancho de banda y menor interferencia.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>El futuro de los cables de red</h2>
+            <p>
+                A pesar del auge de las tecnologías inalámbricas, los cables de red siguen siendo cruciales y evolucionan constantemente.<br> <br>
+                En un mundo cada vez más conectado, contar con el cable de red adecuado marca la diferencia en la velocidad, estabilidad y seguridad de tu conexión. Ya sea para tu hogar, oficina o centro de datos, elegir el cable correcto garantiza un rendimiento óptimo y una transmisión de datos sin interrupciones.
+            </p>
+        </section>
+
+        <section id="networkTestSection">
+            <h2>Prueba de Velocidad de Red</h2>
+            <button id="startTest">Iniciar Prueba</button>
+            <div id="testResults"></div>
+            <div id="testHistory">
+                <h3>Historial de Pruebas</h3>
+                <table id="historyTable">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Velocidad de Descarga</th>
+                            <th>Velocidad de Subida</th>
+                            <th>Ping</th>
+                            <th>Estado</th>
+                            <th>Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 𓆩𓆪-sen_shi-𓆪𓆩 . Todos los derechos reservados. &copy;NJBG 
+          <br>
+          &copy;UMLOcotal
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('startTest').addEventListener('click', async () => {
+            const resultsDiv = document.getElementById('testResults');
+            resultsDiv.innerHTML = '<p>Realizando prueba de conexión...</p>';
+            try {
+                const response = await fetch('/api/test-network', { method: 'POST' });
+                const data = await response.json();
+                
+                resultsDiv.innerHTML = `
+                    <div class="card" style="margin-top: 1rem;">
+                        <h4 style="color: ${data.estado === 'Correcta' ? 'green' : 'red'}">
+                            ${data.message}
+                        </h4>
+                        <p><strong>Fecha:</strong> ${new Date(data.fecha).toLocaleString()}</p>
+                        <p><strong>Velocidad de descarga:</strong> ${data.downloadSpeed.toFixed(2)} Mbps</p>
+                        <p><strong>Velocidad de subida:</strong> ${data.uploadSpeed.toFixed(2)} Mbps</p>
+                        <p><strong>Ping:</strong> ${data.ping.toFixed(2)} ms</p>
+                        <p><strong>Estado:</strong> ${data.estado}</p>
+                    </div>
+                `;
+                loadTestHistory();
+            } catch (error) {
+                resultsDiv.innerHTML = `
+                    <div class="card" style="margin-top: 1rem; color: red;">
+                        <p>Error al realizar la prueba de red.</p>
+                    </div>
+                `;
+            }
+        });
+
+        async function loadTestHistory() {
+            try {
+                const response = await fetch('/api/network-tests');
+                const tests = await response.json();
+                const tableBody = document.querySelector('#historyTable tbody');
+                tableBody.innerHTML = '';
+                tests.forEach(test => {
+                    const row = tableBody.insertRow();
+                    row.innerHTML = `
+                        <td>${new Date(test.fecha).toLocaleString()}</td>
+                        <td>${test.download_speed ? `${test.download_speed.toFixed(2)} Mbps` : '0 Mbps'}</td>
+                        <td>${test.upload_speed ? `${test.upload_speed.toFixed(2)} Mbps` : '0 Mbps'}</td>
+                        <td>${test.ping ? `${test.ping.toFixed(2)} ms` : '0 ms'}</td>
+                        <td style="color: ${test.estado === 'Correcta' ? 'green' : 'red'}">${test.estado}</td>
+                        <td><button class="delete-btn" data-id="${test.id}">Eliminar</button></td>
+                    `;
+                });
+                addDeleteListeners();
+            } catch (error) {
+                console.error('Error al cargar el historial de pruebas:', error);
+            }
+        }
+
+        function addDeleteListeners() {
+            document.querySelectorAll('.delete-btn').forEach(button => {
+                button.addEventListener('click', async function() {
+                    const id = this.getAttribute('data-id');
+                    if (confirm('¿Estás seguro de que quieres eliminar esta prueba?')) {
+                        try {
+                            const response = await fetch(`/api/network-tests/${id}`, { method: 'DELETE' });
+                            if (response.ok) {
+                                loadTestHistory(); // Recargar la lista después de eliminar
+                            } else {
+                                alert('Error al eliminar la prueba');
+                            }
+                        } catch (error) {
+                            console.error('Error al eliminar la prueba:', error);
+                            alert('Error al eliminar la prueba');
+                        }
+                    }
+                });
+            });
+        }
+
+        // Cargar el historial de pruebas al iniciar la página
+        document.addEventListener('DOMContentLoaded', loadTestHistory);
+    </script>
+</body>
+</html>
+
